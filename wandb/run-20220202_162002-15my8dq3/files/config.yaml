@@ -1,0 +1,59 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    python_version: 3.8.3
+    start_time: 1643840402
+    t:
+      1:
+      - 5
+      - 8
+      3:
+      - 13
+      - 16
+      4: 3.8.3
+      5: 0.12.10
+      8:
+      - 1
+      - 2
+      - 5
+    visualize:
+      hist:
+        panel_config:
+          fieldSettings:
+            value: june_avg_temp
+          panelDefId: wandb/histogram/v0
+          stringSettings:
+            title: Distribution of Numerical june_avg_temp
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: hist_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+_wandb_kernel:
+  desc: null
+  value: tensorgirl
+competition:
+  desc: null
+  value: WiDSDatathon2022

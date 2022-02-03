@@ -1,0 +1,1297 @@
+2022-02-02 16:20:02,789 INFO    MainThread:75485 [wandb_setup.py:_flush():75] Loading settings from /Users/yvettegonzalez/.config/wandb/settings
+2022-02-02 16:20:02,789 INFO    MainThread:75485 [wandb_setup.py:_flush():75] Loading settings from /Users/yvettegonzalez/Documents/ML/wids_2022/wandb/settings
+2022-02-02 16:20:02,789 INFO    MainThread:75485 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-02 16:20:02,789 INFO    MainThread:75485 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-02 16:20:02,789 INFO    MainThread:75485 [wandb_setup.py:_flush():75] Applying login settings: {'anonymous': 'must'}
+2022-02-02 16:20:02,790 INFO    MainThread:75485 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-02 16:20:02,790 INFO    MainThread:75485 [wandb_init.py:_log_setup():386] Logging user logs to /Users/yvettegonzalez/Documents/ML/wids_2022/wandb/run-20220202_162002-15my8dq3/logs/debug.log
+2022-02-02 16:20:02,790 INFO    MainThread:75485 [wandb_init.py:_log_setup():387] Logging internal logs to /Users/yvettegonzalez/Documents/ML/wids_2022/wandb/run-20220202_162002-15my8dq3/logs/debug-internal.log
+2022-02-02 16:20:02,790 INFO    MainThread:75485 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f7ff92e09d0>
+2022-02-02 16:20:02,791 INFO    MainThread:75485 [wandb_init.py:init():420] calling init triggers
+2022-02-02 16:20:02,791 INFO    MainThread:75485 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {'competition': 'WiDSDatathon2022', '_wandb_kernel': 'tensorgirl'}
+2022-02-02 16:20:02,791 INFO    MainThread:75485 [wandb_init.py:init():471] starting backend
+2022-02-02 16:20:02,791 INFO    MainThread:75485 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-02 16:20:02,798 INFO    MainThread:75485 [backend.py:ensure_launched():219] starting backend process...
+2022-02-02 16:20:02,810 INFO    MainThread:75485 [backend.py:ensure_launched():224] started backend process with pid: 77872
+2022-02-02 16:20:02,813 INFO    MainThread:75485 [wandb_init.py:init():480] backend started and connected
+2022-02-02 16:20:02,839 INFO    MainThread:75485 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-02 16:20:02,860 INFO    MainThread:75485 [wandb_init.py:init():550] updated telemetry
+2022-02-02 16:20:02,914 INFO    MainThread:75485 [wandb_init.py:init():581] communicating current version
+2022-02-02 16:20:04,847 INFO    MainThread:75485 [wandb_init.py:init():586] got version response 
+2022-02-02 16:20:04,847 INFO    MainThread:75485 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-02 16:20:05,002 INFO    MainThread:75485 [wandb_init.py:init():624] starting run threads in backend
+2022-02-02 16:20:10,011 INFO    MainThread:75485 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-02 16:20:10,012 INFO    MainThread:75485 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-02 16:20:10,013 INFO    MainThread:75485 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-02 16:20:10,014 INFO    MainThread:75485 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-02 16:20:10,014 INFO    MainThread:75485 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-02 16:20:11,377 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'Year_Factor'}, 'stringSettings': {'title': 'Distribution of Numerical Year_Factor'}}} None
+2022-02-02 16:20:13,415 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'floor_area'}, 'stringSettings': {'title': 'Distribution of Numerical floor_area'}}} None
+2022-02-02 16:20:15,248 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'year_built'}, 'stringSettings': {'title': 'Distribution of Numerical year_built'}}} None
+2022-02-02 16:20:17,178 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'energy_star_rating'}, 'stringSettings': {'title': 'Distribution of Numerical energy_star_rating'}}} None
+2022-02-02 16:20:19,082 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'ELEVATION'}, 'stringSettings': {'title': 'Distribution of Numerical ELEVATION'}}} None
+2022-02-02 16:20:21,149 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'january_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical january_min_temp'}}} None
+2022-02-02 16:20:23,067 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'january_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical january_avg_temp'}}} None
+2022-02-02 16:20:24,974 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'january_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical january_max_temp'}}} None
+2022-02-02 16:20:26,906 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'february_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical february_min_temp'}}} None
+2022-02-02 16:20:28,716 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'february_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical february_avg_temp'}}} None
+2022-02-02 16:20:30,648 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'february_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical february_max_temp'}}} None
+2022-02-02 16:20:32,569 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'march_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical march_min_temp'}}} None
+2022-02-02 16:20:34,748 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'march_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical march_avg_temp'}}} None
+2022-02-02 16:20:36,586 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'march_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical march_max_temp'}}} None
+2022-02-02 16:20:38,590 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'april_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical april_min_temp'}}} None
+2022-02-02 16:20:40,628 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'april_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical april_avg_temp'}}} None
+2022-02-02 16:20:42,649 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'april_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical april_max_temp'}}} None
+2022-02-02 16:20:44,652 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'may_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical may_min_temp'}}} None
+2022-02-02 16:20:46,638 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'may_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical may_avg_temp'}}} None
+2022-02-02 16:20:48,917 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'may_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical may_max_temp'}}} None
+2022-02-02 16:20:50,671 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'june_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical june_min_temp'}}} None
+2022-02-02 16:20:52,751 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'june_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical june_avg_temp'}}} None
+2022-02-02 16:20:54,673 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'june_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical june_max_temp'}}} None
+2022-02-02 16:20:56,801 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'july_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical july_min_temp'}}} None
+2022-02-02 16:20:58,799 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'july_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical july_avg_temp'}}} None
+2022-02-02 16:21:01,082 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'july_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical july_max_temp'}}} None
+2022-02-02 16:21:02,899 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'august_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical august_min_temp'}}} None
+2022-02-02 16:21:04,793 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'august_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical august_avg_temp'}}} None
+2022-02-02 16:21:07,010 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'august_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical august_max_temp'}}} None
+2022-02-02 16:21:09,236 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'september_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical september_min_temp'}}} None
+2022-02-02 16:21:11,236 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'september_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical september_avg_temp'}}} None
+2022-02-02 16:21:13,750 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'september_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical september_max_temp'}}} None
+2022-02-02 16:21:15,843 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'october_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical october_min_temp'}}} None
+2022-02-02 16:21:17,594 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'october_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical october_avg_temp'}}} None
+2022-02-02 16:21:20,327 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'october_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical october_max_temp'}}} None
+2022-02-02 16:21:22,070 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'november_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical november_min_temp'}}} None
+2022-02-02 16:21:23,722 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'november_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical november_avg_temp'}}} None
+2022-02-02 16:21:25,696 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'november_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical november_max_temp'}}} None
+2022-02-02 16:21:27,523 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'december_min_temp'}, 'stringSettings': {'title': 'Distribution of Numerical december_min_temp'}}} None
+2022-02-02 16:21:29,298 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'december_avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical december_avg_temp'}}} None
+2022-02-02 16:21:31,433 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'december_max_temp'}, 'stringSettings': {'title': 'Distribution of Numerical december_max_temp'}}} None
+2022-02-02 18:21:30,060 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'cooling_degree_days'}, 'stringSettings': {'title': 'Distribution of Numerical cooling_degree_days'}}} None
+2022-02-02 18:21:33,520 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'heating_degree_days'}, 'stringSettings': {'title': 'Distribution of Numerical heating_degree_days'}}} None
+2022-02-02 18:21:35,227 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'precipitation_inches'}, 'stringSettings': {'title': 'Distribution of Numerical precipitation_inches'}}} None
+2022-02-02 18:21:37,409 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'snowfall_inches'}, 'stringSettings': {'title': 'Distribution of Numerical snowfall_inches'}}} None
+2022-02-02 18:21:39,307 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'snowdepth_inches'}, 'stringSettings': {'title': 'Distribution of Numerical snowdepth_inches'}}} None
+2022-02-02 18:21:47,455 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'avg_temp'}, 'stringSettings': {'title': 'Distribution of Numerical avg_temp'}}} None
+2022-02-02 18:21:57,577 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'days_below_30F'}, 'stringSettings': {'title': 'Distribution of Numerical days_below_30F'}}} None
+2022-02-02 19:34:46,511 ERROR   MainThread:75485 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f7ff98e86d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7ff98e86d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/apis/public.py", line 205, in execute
+    return self._client.execute(*args, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7ff98e86d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2022-02-02 19:35:22,057 ERROR   MainThread:75485 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f7ff98e84c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7ff98e84c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yvettegonzalez/opt/anaconda3/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7ff98e84c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2022-02-02 19:37:56,798 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'days_below_20F'}, 'stringSettings': {'title': 'Distribution of Numerical days_below_20F'}}} None
+2022-02-02 19:37:58,972 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'days_below_10F'}, 'stringSettings': {'title': 'Distribution of Numerical days_below_10F'}}} None
+2022-02-02 19:38:00,856 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'days_below_0F'}, 'stringSettings': {'title': 'Distribution of Numerical days_below_0F'}}} None
+2022-02-02 19:38:02,684 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'days_above_80F'}, 'stringSettings': {'title': 'Distribution of Numerical days_above_80F'}}} None
+2022-02-02 19:38:05,173 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'days_above_90F'}, 'stringSettings': {'title': 'Distribution of Numerical days_above_90F'}}} None
+2022-02-02 19:38:07,301 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'days_above_100F'}, 'stringSettings': {'title': 'Distribution of Numerical days_above_100F'}}} None
+2022-02-02 19:38:09,347 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'days_above_110F'}, 'stringSettings': {'title': 'Distribution of Numerical days_above_110F'}}} None
+2022-02-02 19:38:11,224 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'direction_max_wind_speed'}, 'stringSettings': {'title': 'Distribution of Numerical direction_max_wind_speed'}}} None
+2022-02-02 19:38:13,249 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'direction_peak_wind_speed'}, 'stringSettings': {'title': 'Distribution of Numerical direction_peak_wind_speed'}}} None
+2022-02-02 19:38:16,145 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'max_wind_speed'}, 'stringSettings': {'title': 'Distribution of Numerical max_wind_speed'}}} None
+2022-02-02 19:38:18,895 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'days_with_fog'}, 'stringSettings': {'title': 'Distribution of Numerical days_with_fog'}}} None
+2022-02-02 19:38:21,180 INFO    MainThread:75485 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'hist') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'hist_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/histogram/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'value': 'id'}, 'stringSettings': {'title': 'Distribution of Numerical id'}}} None
+2022-02-02 19:38:21,773 INFO    MainThread:75485 [wandb_run.py:finish():1468] finishing run anony-mouse-195365/WiDSDatathon2022/15my8dq3
+2022-02-02 19:38:21,774 INFO    MainThread:75485 [jupyter.py:save_history():429] not saving jupyter history
+2022-02-02 19:38:21,774 INFO    MainThread:75485 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-02-02 19:38:21,774 INFO    MainThread:75485 [wandb_init.py:_jupyter_teardown():318] cleaning up jupyter logic
+2022-02-02 19:38:21,774 INFO    MainThread:75485 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-02-02 19:38:21,775 INFO    MainThread:75485 [wandb_run.py:_restore():1769] restore
+2022-02-02 19:38:27,688 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:38:32,794 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:38:37,901 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:38:43,005 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:38:48,107 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:38:53,217 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:38:58,323 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:03,433 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:08,539 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:13,644 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:18,751 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:23,856 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:28,960 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:34,066 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:39,174 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:44,283 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:49,388 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:54,490 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:39:59,592 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:04,699 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:09,805 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:14,910 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:20,018 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:25,125 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:30,233 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:35,339 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:40,442 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:45,544 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:50,649 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:40:55,754 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:00,859 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:05,965 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:11,068 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:16,173 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:21,279 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:26,381 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:31,489 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:36,595 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:41,702 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:46,807 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:51,915 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:41:57,018 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:02,123 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:07,228 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:12,339 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:17,447 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:22,551 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:27,659 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:32,760 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:37,869 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:42,973 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:48,079 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:53,180 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:42:58,287 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:03,393 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:08,497 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:13,601 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:18,705 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:23,812 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:28,915 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:34,015 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:39,122 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:44,229 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:49,339 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:54,447 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:43:59,549 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:04,658 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:09,768 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:14,871 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:19,976 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:25,083 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:30,191 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:35,297 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:40,403 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:45,513 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:50,621 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:44:55,726 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:00,836 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:05,942 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:11,052 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:16,159 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:21,263 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:26,367 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:31,467 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:36,569 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:41,677 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:46,777 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:51,877 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:45:56,988 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:02,095 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:07,200 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:12,302 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:17,405 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:22,509 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:27,611 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:32,716 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:37,826 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:42,932 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:48,038 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:53,144 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:46:58,247 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:03,352 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:08,456 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:13,563 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:18,673 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:23,777 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:28,884 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:33,991 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:39,096 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:44,198 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:49,302 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:54,409 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:47:59,515 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:04,620 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:09,721 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:14,826 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:19,935 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:25,041 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:30,143 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:35,253 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:40,357 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:45,463 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:50,570 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:48:55,673 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:00,782 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:05,888 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:10,991 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:16,092 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:21,197 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:26,302 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:31,407 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:36,513 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:41,622 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:46,726 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:51,830 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:49:56,932 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:02,036 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:07,144 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:12,248 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:17,354 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:22,456 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:27,563 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:32,671 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:37,779 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:42,887 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:47,994 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:53,104 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:50:58,214 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:03,322 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:08,430 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:13,539 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:18,645 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:23,745 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:28,853 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:33,963 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:39,068 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:44,174 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:49,282 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:54,391 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:51:59,493 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:04,596 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:09,703 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:14,808 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:19,912 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:25,020 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:30,124 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:35,229 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:40,330 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:45,434 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:50,540 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:52:55,646 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:00,751 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:05,853 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:10,955 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:16,060 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:21,166 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:26,270 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:31,371 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:36,472 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:41,578 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:46,679 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:51,784 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:53:56,891 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:01,997 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:07,100 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:12,201 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:17,309 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:22,415 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:27,516 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:32,617 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:37,726 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:42,830 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:47,938 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:53,046 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:54:58,152 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:03,257 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:08,366 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:13,472 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:18,578 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:23,681 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:28,787 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:33,891 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:38,994 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:44,097 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:49,204 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:54,313 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:55:59,415 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:04,522 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:09,630 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:14,741 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:19,846 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:24,948 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:30,055 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:35,160 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:40,264 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:45,373 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:50,482 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:56:55,588 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:00,696 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:05,797 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:10,903 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:16,011 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:21,114 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:26,217 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:31,323 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:36,433 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:41,543 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:46,644 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:51,751 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:57:56,857 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:01,964 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:07,071 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:12,179 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:17,288 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:22,394 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:27,509 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:32,623 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:37,737 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:42,849 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:47,956 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:53,064 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:58:58,174 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:03,284 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:08,391 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:13,501 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:18,606 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:23,709 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:28,812 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:33,914 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:39,020 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:44,125 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:49,228 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:54,330 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 19:59:59,432 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:04,540 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:09,642 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:14,746 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:19,853 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:24,958 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:30,059 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:35,163 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:40,266 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:45,374 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:50,483 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:00:55,590 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:00,695 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:05,801 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:10,905 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:16,014 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:21,119 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:26,222 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:31,327 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:36,431 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:41,536 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:46,644 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:51,753 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:01:56,856 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:01,960 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:07,063 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:12,173 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:17,281 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:22,385 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:27,491 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:32,601 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:37,706 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:42,813 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:47,918 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:53,023 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:02:58,133 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:03:03,239 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:03:08,345 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:03:13,451 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:03:18,572 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:03:23,681 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:03:28,799 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:06:57,491 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:02,697 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:07,804 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:12,914 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:18,024 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:23,132 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:28,238 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:33,341 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:38,445 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:43,546 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:48,654 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:53,760 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:07:58,868 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:03,975 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:09,079 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:14,190 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:19,298 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:24,403 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:29,510 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:34,613 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:39,720 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:44,826 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:49,932 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:08:55,042 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:00,152 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:05,259 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:10,368 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:15,477 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:20,582 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:25,691 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:30,796 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:35,900 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:41,009 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:46,114 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:51,218 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:09:56,322 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:01,424 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:06,531 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:11,637 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:16,741 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:21,848 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:26,950 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:32,057 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:37,164 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:42,270 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:47,372 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:52,485 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:10:57,590 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:02,697 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:07,804 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:12,915 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:18,022 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:23,130 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:28,233 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:33,336 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:38,445 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:43,550 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:48,655 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:53,762 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:11:58,869 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:03,976 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:09,084 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:14,193 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:19,303 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:24,412 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:29,519 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:34,628 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:39,736 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:44,839 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:49,947 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:12:55,067 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:00,174 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:05,279 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:10,385 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:15,488 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:20,593 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:25,699 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:30,804 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:35,911 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:41,018 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:46,122 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:51,228 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:13:56,335 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:01,439 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:06,545 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:11,654 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:16,762 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:21,869 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:26,975 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:32,084 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:37,190 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:42,292 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:47,399 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:52,506 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:14:57,615 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:02,721 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:07,828 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:12,933 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:18,039 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:23,143 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:28,249 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:33,358 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:38,466 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:43,571 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:48,676 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:53,783 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:15:58,890 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:03,996 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:09,104 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:14,213 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:19,316 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:24,422 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:29,527 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:34,631 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:39,740 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:44,844 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:49,953 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:16:55,057 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:00,166 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:05,270 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:10,378 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:15,485 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:20,589 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:25,694 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:30,795 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:35,901 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:41,006 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:46,112 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:51,219 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:17:56,323 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:01,428 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:06,530 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:11,636 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:16,747 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:21,852 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:26,954 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:32,062 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:37,169 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:42,272 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:47,378 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:52,481 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:18:57,582 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:02,691 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:07,800 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:12,907 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:18,011 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:23,122 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:28,224 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:33,330 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:38,437 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:43,542 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:48,646 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:53,753 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:19:58,857 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:03,964 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:09,070 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:14,177 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:19,283 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:24,389 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:29,492 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:34,595 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:39,700 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:44,807 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:49,914 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:20:55,021 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:00,122 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:05,228 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:10,331 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:15,433 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:20,539 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:25,649 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:30,759 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:35,861 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:40,966 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:46,070 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:51,176 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:21:56,278 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:01,379 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:06,483 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:11,592 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:16,698 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:21,803 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:26,911 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:32,013 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:37,116 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:42,222 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:47,325 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:52,430 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:22:57,540 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:02,646 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:07,751 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:12,856 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:17,963 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:23,068 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:28,173 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:33,278 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:38,383 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:43,487 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:48,588 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:53,697 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:23:58,802 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:03,911 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:09,014 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:14,132 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:19,236 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:24,346 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:29,448 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:34,553 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:39,660 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:44,764 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:49,873 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:24:54,975 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:00,081 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:05,188 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:10,298 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:15,402 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:20,509 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:25,612 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:30,721 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:35,829 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:40,938 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:46,042 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:51,151 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:25:56,256 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:01,363 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:06,469 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:11,570 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:16,674 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:21,776 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:26,882 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:31,988 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:37,092 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:42,201 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:47,310 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:52,417 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:26:57,524 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:02,628 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:07,735 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:12,841 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:17,950 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:23,056 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:28,158 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:33,269 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:38,375 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:43,480 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:48,585 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:53,694 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:27:58,800 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:03,908 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:09,017 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:14,123 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:19,230 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:24,334 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:29,441 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:34,552 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:39,658 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:44,759 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:49,864 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:28:54,974 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:00,076 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:05,178 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:10,280 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:15,381 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:20,483 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:25,589 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:30,697 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:35,802 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:40,911 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:46,021 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:51,130 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:29:56,237 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:01,342 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:06,445 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:11,553 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:16,660 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:21,767 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:26,873 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:31,983 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:37,087 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:42,191 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:47,294 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:52,399 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:30:57,508 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:02,612 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:07,723 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:12,829 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:17,936 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:23,046 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:28,152 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:33,260 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:38,365 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:43,474 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:48,578 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:53,687 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:31:58,795 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:03,899 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:09,006 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:14,114 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:19,223 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:24,328 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:29,434 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:34,535 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:39,640 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:44,746 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:49,851 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:32:54,959 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:00,064 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:05,170 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:10,274 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:15,382 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:20,486 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:25,588 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:30,696 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:35,800 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:40,903 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:46,007 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:51,112 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:33:56,214 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:01,316 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:06,425 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:11,530 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:16,636 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:21,738 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:26,838 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:31,944 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:37,052 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:42,158 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:47,266 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:52,372 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:34:57,480 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:02,588 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:07,696 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:12,801 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:17,907 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:23,014 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:28,116 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:33,220 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:38,322 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:43,429 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:48,532 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:53,635 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:35:58,741 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:03,848 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:08,958 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:14,063 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:19,168 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:24,272 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:29,387 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:34,491 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:39,596 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:44,701 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:49,807 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:36:54,914 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:00,017 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:05,118 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:10,221 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:15,326 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:20,434 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:25,541 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:30,651 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:35,754 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:40,864 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:45,971 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:51,081 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:37:56,188 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:01,295 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:06,396 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:11,504 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:16,608 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:21,711 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:26,819 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:31,925 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:37,028 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:42,138 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:47,241 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:52,343 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:38:57,451 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:02,559 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:07,666 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:12,770 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:17,876 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:22,979 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:28,080 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:33,185 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:38,289 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:43,396 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:48,502 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:53,608 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:39:58,717 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:03,821 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:08,927 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:14,029 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:19,135 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:24,240 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:29,342 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:34,450 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:39,554 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:44,660 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:49,767 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:54,872 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:40:59,977 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:05,081 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:10,185 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:15,292 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:20,400 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:25,508 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:30,614 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:35,719 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:40,824 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:45,931 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:51,037 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:41:56,143 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:01,253 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:06,356 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:11,463 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:16,569 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:21,675 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:26,780 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:31,886 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:36,992 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:42,101 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:47,207 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:52,308 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:42:57,413 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:02,520 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:07,625 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:12,731 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:17,839 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:22,946 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:28,047 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:33,152 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:38,257 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:43,361 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:48,467 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:53,574 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:43:58,683 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:03,789 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:08,891 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:14,007 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:19,114 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:24,221 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:29,326 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:34,432 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:39,537 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:44,642 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:49,743 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:54,850 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:44:59,956 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:05,062 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:10,168 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:15,276 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:20,377 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:25,488 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:30,595 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:35,703 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:40,809 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:45,912 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:51,016 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:45:56,122 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:01,227 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:06,334 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:11,437 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:16,545 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:21,651 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:26,751 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:31,857 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:36,963 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:42,066 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:47,170 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:52,276 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:46:57,377 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:02,481 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:07,588 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:12,696 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:17,803 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:22,906 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:28,012 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:33,121 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:38,228 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:43,333 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:48,435 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:53,540 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:47:58,645 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:03,755 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:08,862 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:13,968 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:19,076 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:24,182 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:29,286 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:34,391 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:39,500 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:44,605 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:49,711 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:54,815 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:48:59,922 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:05,032 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:10,138 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:15,244 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:20,353 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:25,460 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:30,567 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:35,668 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:40,774 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:45,881 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:50,986 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:49:56,091 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:01,194 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:06,302 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:11,408 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:16,515 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:21,618 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:26,729 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:31,833 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:36,934 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:42,038 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:47,148 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:52,253 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:50:57,357 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:02,466 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:07,573 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:12,676 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:17,782 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:22,883 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:27,989 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:33,099 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:38,200 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:43,303 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:48,409 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:53,516 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:51:58,621 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:03,728 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:08,834 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:13,940 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:19,048 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:24,151 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:29,256 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:34,364 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:39,471 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:44,522 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:49,625 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:54,733 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:52:59,836 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:04,945 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:10,050 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:15,152 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:20,260 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:25,362 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:30,470 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:35,579 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:40,684 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:45,790 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:50,897 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:53:56,004 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:01,113 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:06,215 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:11,323 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:16,428 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:21,530 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:26,633 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:31,738 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:36,844 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:41,950 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:47,057 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:52,163 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:54:57,269 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:02,378 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:07,485 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:12,594 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:17,697 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:22,804 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:27,913 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:33,020 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:38,126 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:43,232 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:48,336 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:53,440 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:55:58,547 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:03,650 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:08,752 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:13,856 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:18,964 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:24,066 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:29,171 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:34,275 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:39,381 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:44,489 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:49,590 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:54,696 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:56:59,799 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:04,903 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:10,010 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:15,113 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:20,219 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:25,324 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:30,433 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:35,537 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:40,645 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:45,752 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:50,856 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:57:55,964 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:01,070 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:06,177 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:11,283 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:16,389 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:21,496 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:26,603 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:31,705 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:36,811 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:41,917 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:47,025 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:52,131 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:58:57,238 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:02,343 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:07,447 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:12,555 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:17,663 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:22,770 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:27,870 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:32,974 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:38,078 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:43,183 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:48,290 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:53,396 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 20:59:58,503 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:03,611 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:08,719 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:13,827 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:18,930 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:24,032 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:29,136 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:34,241 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:39,347 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:44,451 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:49,560 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:54,669 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:00:59,775 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:04,881 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:09,991 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:15,097 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:20,203 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:25,312 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:30,415 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:35,521 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:40,628 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:45,732 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:50,839 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:01:55,943 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:01,048 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:06,156 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:11,262 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:16,367 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:21,477 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:26,584 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:31,690 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:36,798 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:41,903 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:47,004 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:52,112 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:02:57,218 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:02,326 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:07,431 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:12,542 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:17,648 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:22,752 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:27,858 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:32,965 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:38,067 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:43,172 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:48,279 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:53,382 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:03:58,489 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:03,594 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:08,703 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:13,809 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:18,911 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:24,016 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:29,124 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:34,227 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:39,332 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:44,441 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:49,546 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:54,654 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:04:59,763 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:04,868 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:09,974 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:15,082 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:20,183 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:25,285 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:30,387 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:35,493 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:40,597 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:45,704 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:50,813 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:05:55,919 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:01,025 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:06,131 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:11,234 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:16,345 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:21,455 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:26,556 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:31,657 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:36,765 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:41,869 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:46,978 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:52,084 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:06:57,191 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:02,297 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:07,406 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:12,510 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:17,618 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:22,722 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:27,830 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:32,940 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:38,044 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:43,145 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:48,251 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:53,356 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:07:58,457 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:03,563 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:08,669 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:13,772 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:18,878 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:23,980 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:29,086 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:34,189 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:39,297 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:44,403 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:49,509 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:54,616 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:08:59,727 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:04,836 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:09,937 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:15,041 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:20,149 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:25,258 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:30,383 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:35,491 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:40,598 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:45,708 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:50,810 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:09:55,914 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:01,021 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:06,128 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:11,235 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:16,338 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:21,445 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:26,547 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:31,652 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:36,754 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:41,856 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:46,963 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:52,067 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:10:57,173 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:02,277 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:07,382 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:12,487 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:17,590 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:22,698 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:27,804 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:32,913 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:38,019 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:43,125 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:48,233 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:53,340 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:11:58,443 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:03,549 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:08,654 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:13,759 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:18,866 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:23,972 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:29,080 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:34,193 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:39,301 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:44,409 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:49,518 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:54,624 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:12:59,727 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:04,833 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:09,940 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:15,050 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:20,158 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:25,264 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:30,372 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:35,480 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:40,585 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:45,689 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:50,794 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
+2022-02-02 21:13:55,895 INFO    MainThread:75485 [wandb_run.py:_wait_for_finish():1929] got exit ret: None
